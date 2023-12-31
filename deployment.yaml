@@ -20,6 +20,8 @@ spec:
       containers:
       - image: ekelejay/pythonapp:11
         name: flaskdemo
+        ports:
+        - containerPort: 5000
         resources: {}
 status: {}
 ---
